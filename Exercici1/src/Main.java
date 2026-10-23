@@ -10,9 +10,10 @@ void main() {
         System.out.println("Introdueix cinc nombres enters");
         nums[i] = llegir.nextInt();
     }
-    for (int i = 0 ; i < nums.length ; i++ ){
-        System.out.println( i + nums[i]);
+    for (int j = 0 ; j < nums.length ; j++ ){
+        System.out.println(j + ": " + nums[j]);
     }
+
     System.out.println(nums.length + ". Primer valor: " + nums[0] + ". Últim valor: " + nums[nums.length - 1] );
 
 }
