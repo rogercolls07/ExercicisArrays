@@ -10,9 +10,16 @@ void main() {
         System.out.println("Introdueix un nombre enter: ");
         nums[i] = llegir.nextInt();
     }
-    for (int j = nums.length - 1 ; j > -1 ; j--){
+
+    System.out.println("Recorregut invers:");
+
+    for (int j = nums.length - 1 ; j >= 0  ; j--){
         System.out.println(nums[j]);
     }
 
+    System.out.println("Recorregut original posterior:");
 
+    for (int i = 0 ; i < nums.length ; i++){
+        System.out.println(nums[i]);
+    }
 }
