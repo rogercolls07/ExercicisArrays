@@ -20,7 +20,7 @@ void main() {
 
     // 3. Calcular la mitjana evitant la divisió entera
     // Multipliquem per 1.0 per convertir el resultat a double
-    double mitjana = suma * 1.0 / dades.length;
+    double mitjana = suma / dades.length;
 
     // 4. Mostrar resultats
     System.out.println("\n--- Resultats ---");
