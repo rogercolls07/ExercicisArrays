@@ -3,14 +3,14 @@
 void main() {
 
     Scanner llegir = new Scanner(System.in);
-    int[] dades = new int[5];
-    int suma = 0;
+    double[] dades = new double[5];
+    double suma = 0;
 
     // 1. Llegir els 5 enters i desar-los a l'array
     System.out.println("Introdueix 5 nombres enters:");
     for (int i = 0; i < dades.length; i++) {
         System.out.print("Valor " + (i + 1) + ": ");
-        dades[i] = llegir.nextInt();
+        dades[i] = llegir.nextDouble();
     }
 
     // 2. Recórrer l'array per calcular la suma (acumulador)
