@@ -34,9 +34,5 @@ void main() {
     System.out.println("Negatius: " + negatius);
     System.out.println("Zeros: " + zeros);
 
-    // Verificació opcional (la suma ha de ser 8)
-    System.out.println("Total elements comptats: " + (positius + negatius + zeros));
-
-
 }
 
